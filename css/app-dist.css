@@ -27,6 +27,7 @@ body {
 }
 
 .img {
+  display: block;
   width: 102px;
   margin: 85px auto 0px auto;
 }
