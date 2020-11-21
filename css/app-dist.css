@@ -1,6 +1,5 @@
-@font-face {
-  font-family: "Kumbh Sans";
-  src: url(https://fonts.google.com/specimen/Kumbh+Sans);
+* {
+   box-sizing: content-box;
 }
 
 body {
@@ -32,7 +31,7 @@ body {
   margin: 85px auto 0px auto;
 }
 
-.img img {
+.img  {
   border-radius: 50%;
   border: 5px solid white;
 }
@@ -45,12 +44,12 @@ body {
   padding-bottom: 15px;
 }
 
-.title h1 span {
+.title__name span {
   font-weight: 400;
   color: hsl(0, 0%, 59%);
 }
 
-.title h2 {
+.title__city {
   font-weight: 400;
   color: hsl(0, 0%, 59%);
   font-size: 13px;
@@ -62,14 +61,14 @@ body {
   padding-top: 10px;
 }
 
-.stats h1 {
+.stats__numbers {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 0;
   text-align: center;
 }
 
-.stats h2 {
+.stats__type {
   margin: 0;
   font-weight: 400;
   color: hsl(0, 0%, 59%);
